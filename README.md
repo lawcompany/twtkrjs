@@ -17,11 +17,11 @@ var processor = new TwitterKoreanText({
 
 
 processor.tokenizeToStrings("한국어를 처리하는 예시입니닼ㅋㅋㅋㅋㅋ", function(err, result) { ... }) // async
-var result = processor.tokenizeToStrings("한국어를 처리하는 예시입니닼ㅋㅋㅋㅋㅋ");  // sync
 ```
 
 
 # TODO
 
 - add test case / 테스트 케이스 추가
+- sync method add / 동기 처리 함수 추가
 - etc...
